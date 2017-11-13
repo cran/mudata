@@ -3,8 +3,8 @@
 \name{wide}
 \alias{wide}
 \alias{wide.default}
-\alias{wide.qtag.long}
 \alias{wide.qtag.wide}
+\alias{wide.qtag.long}
 \title{Convert data to wide format}
 \usage{
 wide(x, ...)
@@ -41,4 +41,3 @@ wide(pocmajlong)
 wide(pocmaj)
 
 }
-

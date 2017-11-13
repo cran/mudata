@@ -27,4 +27,3 @@ pocmaj \%>\% group_by(core, depth) \%>\% summarise(mean(Ca))
 
 
 }
-

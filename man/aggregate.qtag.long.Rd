@@ -32,4 +32,3 @@ aggregate(pocmajqt, mean)
 aggregate(long(pocmajqt), mean, sd, length)
 
 }
-

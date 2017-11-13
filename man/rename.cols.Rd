@@ -39,4 +39,3 @@ pocmaj2 <- rename.cols(pocmaj2, Ca="Calcium")
 attr(pocmaj2, "measure.vars")
 
 }
-

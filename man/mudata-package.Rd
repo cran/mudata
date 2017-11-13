@@ -42,4 +42,3 @@ plot(md, yvar="x")
 \seealso{
 \link{mudata}
 }
-

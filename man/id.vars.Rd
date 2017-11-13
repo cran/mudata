@@ -2,9 +2,9 @@
 % Please edit documentation in R/qtag.R
 \name{id.vars}
 \alias{id.vars}
-\alias{id.vars.data.frame}
-\alias{id.vars.grouped_df}
 \alias{id.vars.qtag}
+\alias{id.vars.grouped_df}
+\alias{id.vars.data.frame}
 \title{Extract value qualifier names from a qualifier/tag structure}
 \usage{
 id.vars(x, ...)
@@ -34,4 +34,3 @@ pocmaj <- as.qtag(pocmaj, id.vars=c("core", "depth"))
 id.vars(pocmaj)
 
 }
-

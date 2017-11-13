@@ -21,4 +21,3 @@ pocmaj <- as.qtag(pocmaj, id.vars=c("core", "depth"))
 qualifierdata(pocmaj)
 
 }
-

@@ -1,6 +1,14 @@
 
 context("mudata constructor")
 
+test_that("deprecation warning shows up in the right places", {
+  pocmajq <- as.qtag(pocmaj)
+  pocmajq <- long(pocmajq)
+  pocmajq <- aggregate(pocmajq)
+  expect_message(mudata(rename.cols(pocmajq, core="location", depth="x")), 
+                 "The 'mudata' package is now deprecated")
+})
+
 test_that("mudata constructor creates a mudata object", {
   pocmajq <- as.qtag(pocmaj)
   pocmajq <- long(pocmajq)

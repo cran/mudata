@@ -40,4 +40,3 @@ aggregate(pocmaj)
 aggregate(long(pocmaj))
 
 }
-

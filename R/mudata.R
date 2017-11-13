@@ -1,4 +1,9 @@
 
+deprecation_message <- function() {
+  message("The 'mudata' package is now deprecated")
+  message("Please use the 'mudata2' package: install.packages('mudata2')")
+}
+
 #' Create a MuData object
 #' 
 #' Create an object describing multi-parameter spatiotemporal data in the (mostly) universal
@@ -56,6 +61,9 @@
 mudata <- function(data, locations=NULL, params=NULL, datasets=NULL, 
                    columns=NULL, dataset.id='default', location.id='default', 
                    defactorize=TRUE, validate=TRUE, expand.tags=TRUE, retype=FALSE) {
+  # add deprecation warning
+  deprecation_message()
+  
   # ok to be missing cols at first
   .checkcols(data, 'data', NULL)
   if(!('dataset' %in% names(data))) {

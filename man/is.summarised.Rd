@@ -25,4 +25,3 @@ is.summarised(pocmaj)
 is.summarised(aggregate(pocmaj))
 
 }
-
